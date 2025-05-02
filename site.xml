@@ -11,8 +11,8 @@
 # JetTheme v2.8.2 Setting #
 ---------------------------
 
-<Variable name="tagline" description="KIRAN KUMAR K" type="string" value=""/>
-[!] Homepage tagline, ex: BlogName - KIRAN KUMAR K
+<Variable name="tagline" description="Tagline" type="string" value=""/>
+[!] Homepage tagline, ex: BlogName - Tagline
 
 <Variable name="separator" description="Separator" type="string" value=" - "/>
 [!] Title separator ( – ), ( | ), ( • )
@@ -125,7 +125,7 @@
 --( (_ |  _ Author Name	:	KIRAN KUMAR K           _  | _) )--
 -((\ \)+-/o)-----------------------------------(o\-+(/ /))-
 -(\\\ \_/ /                                     \ \_/ ///)-
---\      /    https://github.com/KIRAN-KUMAR-K3     \      /--
+--\      /    https://github.com/KIRAN-KUMAR-K3    \      /--
 ---\____/                 |  |                    \____/---
 ---|    | +++++++++++++++++++++++++++++++++++++++ |    |---
 -----------------------------------------------------------
@@ -354,7 +354,7 @@ width: 50%;
 <b:section class='container position-relative px-3 flex-nowrap' id='header-main' maxwidgets='3' showaddelement='no'>
   <b:widget id='HTML50' locked='true' title='tech-bangla-info-logo' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>https://raw.githubusercontent.com/KIRAN-KUMAR-K3/banner/refs/heads/main/KALI.png</b:widget-setting>
+      <b:widget-setting name='content'>https://raw.githubusercontent.com/KIRAN-KUMAR-K3/banner/refs/heads/main/pixlr-image-generator-acdd7b63-d8f5-4abf-b3ba-ac9cc627d904.png</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
         <b:include name='JetLogo'/>
@@ -364,40 +364,46 @@ width: 50%;
     <b:widget-settings>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
       <b:widget-setting name='text-1'>facebook</b:widget-setting>
-      <b:widget-setting name='link-1'>https://www.facebook.com/kirankumar.k.56211/</b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.facebook.com/kirankumar.k.56211</b:widget-setting>
       <b:widget-setting name='text-0'>linkedin</b:widget-setting>
-      <b:widget-setting name='link-0'>https://www.linkedin.com/in/kiran-kumar-k3/</b:widget-setting>
+      <b:widget-setting name='link-0'>https://www.linkedin.com/in/kiran-kumar-k3//</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
       <b:include name='JetSearch'/>
     </b:includable>
     <b:includable id='content'/>
   </b:widget>
- <b:widget id='LinkList53' locked='true' title='Menu' type='LinkList' version='2' visible='true'>
-  <b:widget-settings>
-    <b:widget-setting name='sorting'>NONE</b:widget-setting>
-    <b:widget-setting name='text-0'>Home</b:widget-setting>
-    <b:widget-setting name='link-0'>/</b:widget-setting>
-    <b:widget-setting name='text-1'>Tech News</b:widget-setting>
-    <b:widget-setting name='link-1'>/search/label/Tech News</b:widget-setting>
-    <b:widget-setting name='text-2'>Online Income</b:widget-setting>
-    <b:widget-setting name='link-2'>/search/label/Online Income</b:widget-setting>
-    <b:widget-setting name='text-3'>FAQ's</b:widget-setting>
-    <b:widget-setting name='link-3'>https://github.com/KIRAN-KUMAR-K3</b:widget-setting>
-    <b:widget-setting name='text-4'>Health</b:widget-setting>
-    <b:widget-setting name='link-4'>/search/label/Health</b:widget-setting>
-    <b:widget-setting name='text-5'>Sub Menu 1</b:widget-setting>
-    <b:widget-setting name='link-5'>#</b:widget-setting>
-    <b:widget-setting name='text-6'>Sub Menu 2</b:widget-setting>
-    <b:widget-setting name='link-6'>#sub-start</b:widget-setting>
-    <b:widget-setting name='text-10'>Sub Menu 3</b:widget-setting>
-    <b:widget-setting name='link-10'>#sub-end</b:widget-setting>
-  </b:widget-settings>
-  <b:includable id='main'>
-    <b:include name='JetMenu'/>
-  </b:includable>
-  <b:includable id='content'/>
-</b:widget>
+  <b:widget id='LinkList53' locked='true' title='Menu' type='LinkList' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='text-9'>Entertainment</b:widget-setting>
+      <b:widget-setting name='link-9'>/search/label/entertainment</b:widget-setting>
+      <b:widget-setting name='text-8'>World Politics</b:widget-setting>
+      <b:widget-setting name='link-7'>/search/label/islamic-life</b:widget-setting>
+      <b:widget-setting name='link-8'>/search/label/world-politics</b:widget-setting>
+      <b:widget-setting name='text-10'>Sub Menu 1</b:widget-setting>
+      <b:widget-setting name='link-5'>#</b:widget-setting>
+      <b:widget-setting name='link-6'>#sub-start</b:widget-setting>
+      <b:widget-setting name='link-3'>https://github.com/KIRAN-KUMAR-K3/p/faq.html</b:widget-setting>
+      <b:widget-setting name='link-4'>/search/label/health</b:widget-setting>
+      <b:widget-setting name='text-1'>Tech News</b:widget-setting>
+      <b:widget-setting name='text-0'>Home</b:widget-setting>
+      <b:widget-setting name='text-3'/>
+      <b:widget-setting name='text-2'>Online Income</b:widget-setting>
+      <b:widget-setting name='text-5'>Others</b:widget-setting>
+      <b:widget-setting name='text-4'>Health</b:widget-setting>
+      <b:widget-setting name='text-7'>Islamic Life</b:widget-setting>
+      <b:widget-setting name='text-6'>Sub Menu 1</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-1'>/search</b:widget-setting>
+      <b:widget-setting name='link-2'>/search/label/online-income</b:widget-setting>
+      <b:widget-setting name='link-0'>/</b:widget-setting>
+      <b:widget-setting name='link-10'>#sub-end</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='JetMenu'/>
+    </b:includable>
+    <b:includable id='content'/>
+  </b:widget>
 </b:section>
 </header>
 
@@ -410,7 +416,7 @@ width: 50%;
 <b:section class='pt-4' cond='data:view.isMultipleItems and !data:view.search.query' id='before-blog' showaddelement='yes'>
   <b:widget id='HTML51' locked='false' title='#Advertisement' type='HTML' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="https://github.com/KIRAN-KUMAR-K3" target="_blank" title="CYBER-GENETICS"> <img alt="CYBER-GENETICS" border="0" height="331" width="1499" src="https://raw.githubusercontent.com/KIRAN-KUMAR-K3/banner/refs/heads/main/pixlr-image-generator-acdd7b63-d8f5-4abf-b3ba-ac9cc627d904.png"/></a>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<a href="https://github.com/KIRAN-KUMAR-K3/" target="_blank" title="Tech Bangla Info"> <img alt="জনপ্রিয়-বাংলা-টেক-ব্লগ-টেক-বাংলা-ইনফো" border="0" height="331" width="1499" src="https://raw.githubusercontent.com/KIRAN-KUMAR-K3/banner/refs/heads/main/KALI.png"/></a>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
       <b:include name='JetHtml'/>
@@ -716,12 +722,9 @@ width: 50%;
     <b:section class='row row-cols-sm-2 row-cols-lg-4 justify-content-evenly' id='footer-widget' showaddelement='yes'>
       <b:widget id='HTML55' locked='false' title='About Us' type='HTML' visible='true'>
         <b:widget-settings>
-         <b:widget-setting name='content'><![CDATA[
-<p>Welcome to <b><a href="https://github.com/KIRAN-KUMAR-K3" title="CYBER GENETICS">CYBER GENETICS</a></b> — your destination for everything cyber! We focus on Cybersecurity, Ethical Hacking, Bug Bounty, Linux Customization, and Digital Security solutions.</p>
-
-<p>Stay connected with <b><a href="https://github.com/KIRAN-KUMAR-K3" title="CYBER GENETICS">CYBER GENETICS</a></b> to explore open-source hacking tools, scripts, network security insights, and hands-on technical content — all in one place.</p>
-]]></b:widget-setting>
-
+          <b:widget-setting name='content'><![CDATA[<p>Welcome to <b><a href="https://github.com/KIRAN-KUMAR-K3" title="CYBER GENETICS">CYBER GENETICS</a></b> – your go-to hub for Ethical Hacking, Cybersecurity, Linux Tools, Machine Learning projects, and more. Discover well-structured repositories, learn from practical implementations, and explore how technology defends the digital world.</p>
+<p>Stay informed and connected with <b><a href="https://github.com/KIRAN-KUMAR-K3" title="CYBER GENETICS GitHub">CYBER GENETICS</a></b> – where innovation meets ethical hacking and education in cybersecurity begins.</p>]]></b:widget-setting>
+        </b:widget-settings>
         <b:includable id='main'>
       <b:include name='JetHtml'/>
     </b:includable>
@@ -753,24 +756,26 @@ width: 50%;
       <b:widget id='LinkList51' locked='false' title='Follow Us' type='LinkList' version='2' visible='true'>
         <b:widget-settings>
           <b:widget-setting name='text-9'>whatsapp</b:widget-setting>
-          <b:widget-setting name='link-9'>https://wa.me/+918310937381?text=Greetings!%20This%20Is%20Imam%20Uddin;%20Welcome%20to%20you%20on%20WhatsApp%20Chat</b:widget-setting>
+          <b:widget-setting name='link-9'>https://wa.me/+8801815682307?text=Greetings!%20This%20Is%20Imam%20Uddin;%20Welcome%20to%20you%20on%20WhatsApp%20Chat</b:widget-setting>
           <b:widget-setting name='text-8'>github</b:widget-setting>
-          <b:widget-setting name='link-7'>https://instagram.com/kirankumar.k0000</b:widget-setting>
-          <b:widget-setting name='link-8'>https://github.com/KIRAN-KUMAR-K3</b:widget-setting>
-          <b:widget-setting name='link-5'>https://www.facebook.com/kirankumar.k.56211</b:widget-setting>
-          <b:widget-setting name='link-6'>https://x.com/KIRAN_KUMAR_K3</b:widget-setting>
-          <b:widget-setting name='link-3'>https://instagram.com/kirankumar.k0000</b:widget-setting>
-          <b:widget-setting name='link-4'>https://www.youtube.com/@kirankumar.k3</b:widget-setting>
+          <b:widget-setting name='link-7'>https://instagram.com/imamuddinwp</b:widget-setting>
+          <b:widget-setting name='link-8'>https://github.com/imamuddinwp</b:widget-setting>
+          <b:widget-setting name='link-5'>https://facebook.com/imamuddinwpbd</b:widget-setting>
+          <b:widget-setting name='link-6'>https://www.twitter.com/imamuddinwp</b:widget-setting>
+          <b:widget-setting name='link-3'>https://pinterest.com/imamuddinwp</b:widget-setting>
+          <b:widget-setting name='link-4'>https://www.youtube.com/@ImamUddinWp</b:widget-setting>
           <b:widget-setting name='text-1'>telegram</b:widget-setting>
           <b:widget-setting name='text-0'>linkedin</b:widget-setting>
           <b:widget-setting name='text-3'>pinterest</b:widget-setting>
+          <b:widget-setting name='text-2'>tumblr</b:widget-setting>
           <b:widget-setting name='text-5'>facebook</b:widget-setting>
           <b:widget-setting name='text-4'>youtube</b:widget-setting>
           <b:widget-setting name='text-7'>instagram</b:widget-setting>
           <b:widget-setting name='text-6'>twitter</b:widget-setting>
           <b:widget-setting name='sorting'>NONE</b:widget-setting>
-          <b:widget-setting name='link-1'>https://t.me/KIRAN-KUMAR-K3</b:widget-setting>
-          <b:widget-setting name='link-0'>https://www.linkedin.com/in/kiran-kumar-k3/</b:widget-setting>
+          <b:widget-setting name='link-1'>https://t.me/imamuddinwp</b:widget-setting>
+          <b:widget-setting name='link-2'>https://imamuddinwp.tumblr.com</b:widget-setting>
+          <b:widget-setting name='link-0'>https://www.linkedin.com/in/imamuddinwp</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
           <b:include name='JetSocial'/>
@@ -778,11 +783,9 @@ width: 50%;
         <b:includable id='content'/>
       </b:widget>
       <b:widget id='HTML58' locked='false' title='Newsletter' type='HTML' version='2' visible='true'>
-       <b:widget-settings>
-  <b:widget-setting name='content'><![CDATA[
-    <p>Subscribe now to receive the latest updates on cybersecurity, ethical hacking, and online tech resources directly to your email.</p>
-  ]]></b:widget-setting>
-</b:widget-settings>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<p>Subscribe now to get regular updates on cybersecurity, ethical hacking, Linux tools, and practical security resources delivered directly to your inbox.</p> ]]></b:widget-setting>
+        </b:widget-settings>
         <b:includable id='main'>
       <b:include name='JetFollowIt'/>
     </b:includable>
@@ -794,12 +797,9 @@ width: 50%;
 <b:section class='container px-3' id='copyright' maxwidgets='1' showaddelement='no'>
   <b:widget id='HTML56' locked='true' title='Copyright' type='HTML' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-settings>
-  <b:widget-setting name='content'><![CDATA[
-    <p>2018 - <span id="cdate">2021</span><script>document.getElementById("cdate").innerHTML = (new Date().getFullYear());</script> © 
-    <a href="https://github.com/KIRAN-KUMAR-K3" target="_blank" title="CYBER GENETICS - Exploring Ethical Hacking & Cybersecurity">CYBER GENETICS</a> - powered by: <a href="https://freelancing-geek.blogspot.com/" target="_blank" title="Freelancing Geek - Road To Freelancing World!">Freelancing Geek</a></p>
-  ]]></b:widget-setting>
-</b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<p>2018 - <span id="cdate">2021</span><script>document.getElementById("cdate").innerHTML = (new Date().getFullYear());</script> © 
+<a href="https://github.com/KIRAN-KUMAR-K3" target="_blank" title="CYBER GENETICS – Ethical Hacking and Cybersecurity">CYBER GENETICS</a> - All rights reserved.</p><script>document.getElementById("cdate").innerHTML = (new Date().getFullYear());</script>]]></b:widget-setting>
+    </b:widget-settings>
     <b:includable id='main'>
       <b:include name='JetCopyRight'/>
     </b:includable>
@@ -1304,6 +1304,7 @@ width: 50%;
 <a class='me-2 mb-2 btn btn-sm jt-icon-center text-white rounded-pill' expr:href='&quot;https://twitter.com/intent/tweet?url=&quot; + data:post.url.canonical' rel='nofollow noopener noreferrer' style='background-color:#55acee' target='_blank' title='Tweet This'><svg aria-hidden='true' class='jt-icon'><use xlink:href='#i-twitter'/></svg></a>
 <a class='me-2 mb-2 btn btn-sm jt-icon-center text-white rounded-pill' expr:href='&quot;https://pinterest.com/pin/create/button/?url=&quot; + data:post.url.canonical + &quot;&amp;media=&quot; + data:post.featuredImage' rel='nofollow noopener noreferrer' style='background-color:#cb2027' target='_blank' title='Pin It'><svg aria-hidden='true' class='jt-icon'><use xlink:href='#i-pinterest'/></svg></a>
 <a class='me-2 mb-2 btn btn-sm jt-icon-center text-white rounded-pill' expr:href='&quot;https://www.linkedin.com/sharing/share-offsite/?url=&quot; + data:post.url.canonical' rel='nofollow noopener noreferrer' style='background-color:#2554bf' target='_blank' title='Linkedin Share'><svg aria-hidden='true' class='jt-icon'><use xlink:href='#i-linkedin'/></svg></a>
+<a class='me-2 mb-2 btn btn-sm jt-icon-center text-white rounded-pill' expr:href='&quot;https://www.tumblr.com/share/link?url=&quot; + data:post.url.canonical' rel='nofollow noopener noreferrer' style='background-color:#314358' target='_blank' title='Tumblr Share'><svg aria-hidden='true' class='jt-icon'><use xlink:href='#i-tumblr'/></svg></a>
 <a class='me-2 mb-2 btn btn-sm jt-icon-center text-white rounded-pill' expr:href='&quot;https://wa.me/?text=&quot;+ data:post.url.canonical' rel='nofollow noopener noreferrer' style='background-color:#25d366' target='_blank' title='Share to whatsapp'><svg aria-hidden='true' class='jt-icon'><use xlink:href='#i-whatsapp'/></svg></a>
 <a class='me-2 mb-2 btn btn-sm jt-icon-center text-white rounded-pill' expr:href='&quot;https://t.me/share/url?url=&quot; + data:post.url.canonical' rel='nofollow noopener noreferrer' style='background-color:#0088cc' target='_blank' title='Share to telegram'><svg aria-hidden='true' class='jt-icon'><use xlink:href='#i-telegram'/></svg></a>
         </div>
